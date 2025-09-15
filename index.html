@@ -4,20 +4,49 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home Page</title>
+        <link href="base.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
     </head> 
 
     <body>
-        <h1>Welcome to the Home Page</h1>
-        <a href="./tweets.html" target="_blank" rel="noreferrer">Tweets</a>
-        <p>This is a simple HTML template.</p>
-        <P>There are various html headings</P>
-        <h1>This is heading 1</h1>
-        <h2>This is heading 2</h2>
-        <h3>This is heading 3</h3>
-         
-        <p>Clickable images combine anchor tags and image tags</p>
-        <p>Click this image and go to Google</p>
-        <a href="https://www.google.com"><img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d"
-        alt="A man standing in the grass" width="300" height="auto">
+        <header>
+            <ul>
+                <li>
+                    <a href="./tweets.html" rel="noopener noreferrer">Tweets</a>
+                </li>
+                <li>
+                    <a href="./base_index.html" rel="noopener noreferrer">Base HTML BoilerPlate</a>
+                </li>
+            </ul>
+        </header>
+        <hr>
+        <main>
+            <article>
+            <h1>Welcome to the Home Page</h1>
+            <p>This is a simple HTML template.</p>
+            <p>There are various HTML headings:</p>
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            
+            <p>Clickable images combine anchor tags and image tags.</p>
+            <p>Click this image and go to Google:</p>
+            <a href="https://www.google.com" target="_blank" rel="noreferrer">
+                <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" 
+                     alt="A man standing in the grass" width="300">
+            </a>
+            </article>
+
+            <aside>
+                <h3>Do you like memes?</h3>
+                <p>Click on the link above to go to the page of meme tweets</p>
+            </aside>
+        </main>
+        <hr>
+        <footer>
+            <p>Made by Jeremiah Jewel Emmanuel - 
+                <a href="https://www.github.com/Jeremiah-J-Emmanuel">My GitHub</a>
+            </p>
+        </footer>
     </body>
 </html>
